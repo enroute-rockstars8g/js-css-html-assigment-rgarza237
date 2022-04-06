@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(8, 5, 159);
+    display: flex;
+}
+
+#mincont {
+position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#imagen1 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    z-index: 1;
+    left: 15px;
+}
+
+#imagen2 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+#imagen1:hover{
+    display: none;
+}
+
+#texto{
+    position: relative;
+    right: 0;
+    width: 75%;
+    padding: 5px;
+}
+
+.ache2{
+    color: rgb(26, 43, 81);
+}
+
+#inputs{
+    margin-top: 25px;
+    height: 300px;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(8, 5, 159);
+    border-radius: 15px;
+}
+
+#figonacci{
+    height: 50%;
+    width: 100%;
+}
+
+
+#factorial{
+height: 50%;
+width: 100%;
+}
